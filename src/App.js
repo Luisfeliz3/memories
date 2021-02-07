@@ -1,11 +1,12 @@
 import React , {useEffect} from "react";
 import { Container, AppBar, Typography, Grow, Grid } from "@material-ui/core";
 import memories from "./images/memories.png";
+import {getPosts} from './actions/posts';
 import Posts from "./component/Posts/Posts.js";
 import Form from "./component/Form/Form.js";
 import useStyles from "./styles.js";
 import {useDispatch} from 'react-redux';
-import {getPosts} from './actions/posts';
+
 
 const App = () => {
     const classes = useStyles();
