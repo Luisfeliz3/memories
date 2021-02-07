@@ -13,8 +13,7 @@ export default makeStyles(() => ({
     color: 'rgba(0,183,255, 1)',
   },
   image: {
-    marginLeft: '5px',
-    // width: '80px',
-    // height: '80px'
+    marginLeft: '15px',
+
   },
 }));
